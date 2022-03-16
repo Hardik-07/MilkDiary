@@ -1,0 +1,56 @@
+.heading {
+    padding: 0.8em 3em;
+    font-size: 1.8em;
+}
+
+.detailForm {
+    padding: 0.8em;
+}
+
+.detailForm span {
+    color: crimson;
+}
+.detailForm p {
+    color: darkblue;
+    width: 25em;
+    margin: 1em 4em;
+    font-size: 25px;
+}
+.quantity {
+    display: flex;
+    align-items: center;
+    margin: 20px 6em;
+}
+
+.toogler {
+    margin: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.formbtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 6em;
+}
+
+.formbtn button {
+    background-color: #4f80e1;
+    height: 3em;
+    width: 10em;
+    color: white;
+    border: none;
+    border-radius: 0.6em;
+}
+
+.formbtn button:hover {
+    background-color: #3a5da5;
+}
+.productimg {
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 12em;
+    left: 60em;
+}

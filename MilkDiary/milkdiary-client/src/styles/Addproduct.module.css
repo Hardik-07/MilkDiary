@@ -1,0 +1,94 @@
+.newProduct {
+    background-color: #fff;
+    max-height: 100%;
+    overflow-y: scroll;
+}
+
+.heading {
+    font-size: 2rem;
+    color: #4f80e1;
+    font-weight: 500;
+    margin: 1em;
+}
+
+.dataform {
+    margin: 0px 20px;
+}
+.datafields {
+    margin: 20px 0px;
+    color: '#7c879c8f';
+}
+.datafields input {
+    display: block;
+    height: 40px;
+    width: 60%;
+    border: 0.2px solid #ccc;
+    border-radius: 0.4em;
+    padding: 20px;
+    margin-top: 5px;
+    outline-color: hsla(204, 78%, 64%, 0.747);
+}
+.datafields textarea {
+    resize: vertical;
+    display: block;
+    width: 60%;
+    height: 11em;
+    border: 0.2px solid #ccc;
+    border-radius: 0.4em;
+    padding: 20px;
+    margin-top: 5px;
+    outline-color: hsla(204, 78%, 64%, 0.747);
+}
+#imgInput {
+    display: inline-block;
+    height: 2rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #4f80e1;
+    color: white;
+    font-size: 0.8rem;
+    border-radius: 0.4em;
+}
+#imgInput:hover {
+    background-color: #395fac;
+}
+
+.imgdiv {
+    position: absolute;
+    left: 70%;
+    top: 8em;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+}
+
+.imgBox {
+    margin: 20px 0px;
+    height: 260px;
+    width: 260px;
+    border: 2px dashed #dfe2e9;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addbtn {
+    background-color: #4f80e1;
+    height: 3em;
+    width: 10rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1em;
+    margin-left: 20px;
+}
+
+.addbtn:hover {
+    background-color: #395fac;
+}

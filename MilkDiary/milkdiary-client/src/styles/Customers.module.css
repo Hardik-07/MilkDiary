@@ -1,0 +1,100 @@
+.customersDataComonent {
+    background-color: #fff;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.customersDataComonent .headingBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+.headingBar .heading {
+    font-size: 2rem;
+    color: #4f80e1;
+    font-weight: 500;
+}
+
+.newCustomerBtn {
+    align-items: center;
+    height: 2.5rem;
+    width: 8rem;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #4f80e1;
+    color: #fafafa;
+    border-radius: 0.7em;
+    border: none;
+}
+
+.newCustomerBtn:hover {
+    background-color: #395fac;
+}
+
+.searchBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.searchBox input {
+    height: 2.5em;
+    border-radius: 0.5em;
+    width: 70%;
+    outline: none;
+    border: none;
+    background-color: #f5f6fa;
+    color: #4f80e1;
+    text-align: center;
+    margin-left: 2em;
+    font-weight: 600;
+}
+
+.customerData {
+    list-style-type: none;
+    margin: 0.4em 2em;
+    justify-content: center;
+}
+.tableHeader {
+    position: sticky;
+}
+
+table {
+    margin: 2em;
+    width: 94%;
+    border-collapse: collapse;
+}
+table tr {
+    background-color: #f5f6fa;
+    width: 94%;
+}
+table tr:hover {
+    background-color: #dcdee4;
+}
+
+table th {
+    color: white;
+    background-color: #4f80e1;
+    text-align: left;
+    padding: 0.6em;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+table td {
+    color: #606060;
+    padding: 0.6em;
+    font-size: 0.8rem;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.btn {
+    color: #aab2c8;
+}
+.btn:hover {
+    color: #606060;
+    transition: 0.2s;
+    transform: scale(1.3);
+}

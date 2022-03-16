@@ -1,0 +1,66 @@
+.AddcustomerComponent {
+    background-color: #fff;
+    height: 100%;
+    overflow-y: scroll;
+}
+.AddcustomerComponent .headingBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+.headingBar .heading {
+    font-size: 2rem;
+    color: #4f80e1;
+    font-weight: 500;
+}
+
+.backBtn {
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #4f80e1;
+    color: #fafafa;
+    border-radius: 2em;
+    border: none;
+}
+
+.backBtn:hover {
+    background-color: #395fac;
+}
+
+.dataform {
+    margin: 2em 4em;
+}
+
+.datafields {
+    margin: 20px 0px;
+    color: '#7c879c8f';
+}
+.datafields input {
+    display: block;
+    height: 40px;
+    width: 60%;
+    border: 0.2px solid #ccc;
+    border-radius: 0.4em;
+    padding: 20px;
+    margin-top: 5px;
+    outline-color: hsla(204, 78%, 64%, 0.747);
+}
+
+.registerbtn {
+    background-color: #4f80e1;
+    height: 3em;
+    width: 10rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 2em;
+}
+
+.registerbtn:hover {
+    background-color: #395fac;
+}

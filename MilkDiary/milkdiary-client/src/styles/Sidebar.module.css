@@ -1,0 +1,51 @@
+nav .logo_container {
+    color: #4f80e1;
+    font-size: 20px;
+    font-weight: 900;
+    width: 100%;
+    margin: 10px;
+}
+
+.sidebarList {
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.listItems {
+    text-decoration: none;
+}
+
+.sidebarList li {
+    display: flex;
+    align-items: center;
+    margin-left: 1.5em;
+    margin-bottom: 5px;
+    color: #aab2c8;
+    padding: 15px;
+    font-weight: 500;
+    border-radius: 1em 0 0 1em;
+}
+
+.listItems li:hover {
+    color: #ffffff;
+    background-color: #4f80e1;
+}
+
+.sidebarList .active {
+    color: #ffffff;
+    background-color: #4f80e1;
+    box-shadow: 0px 0px 5px 4px inset #4672ca;
+}
+
+.sidebarList .itemIcon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.sidebarList .itemTitle {
+    font-size: 0.7em;
+    flex: 80%;
+}

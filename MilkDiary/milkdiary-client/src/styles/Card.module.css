@@ -1,0 +1,41 @@
+.productCard {
+    background-color: #fff;
+    width: 100%;
+    border: 0.1px solid rgba(85, 82, 82, 0.116);
+
+    /* background-color: #4f80e1; */
+    padding: 0.5em;
+}
+.productCard:hover {
+    box-shadow: rgba(154, 154, 179, 0.137) 0px 0px 10px 1px;
+    transition: 0.2s ease-in-out;
+}
+
+.productCard img {
+    height: 250px;
+    width: 100%;
+    align-items: center;
+    border-radius: inherit;
+    padding: 10px;
+}
+
+.contentWrapper {
+    border: 1px solid #4f80e1;
+    color: #4f80e1;
+    padding: 20px;
+    font-weight: 600;
+}
+.contentWrapper p {
+    color: #31343d;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.contentWrapper button {
+    background-color: #4f80e1;
+    border: none;
+    height: 2rem;
+    width: 3rem;
+    color: white;
+}

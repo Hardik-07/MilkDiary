@@ -1,0 +1,73 @@
+.dashboardComonent {
+    background-color: #fff;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.dashboardComonent .headingBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+.headingBar .heading {
+    font-size: 2rem;
+    color: #4f80e1;
+    font-weight: 500;
+}
+
+.dashboardComonent .userStatus {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2em;
+    grid-gap: 2rem;
+}
+
+.status {
+    height: 8rem;
+    border-radius: 0.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemDetails {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 2em;
+    grid-gap: 2.7em;
+}
+.orders {
+    background-color: whitesmoke;
+    border-radius: 0.6em;
+}
+.orderList {
+    background-color: crimson;
+    margin: 0rem;
+    width: 100%;
+    text-align: center;
+}
+.orderList tr {
+    height: 2.5rem;
+}
+.orderList th {
+    text-align: center;
+}
+
+.items {
+    background-color: whitesmoke;
+    min-height: 22rem;
+    border-radius: 0.8rem;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    margin: 1rem 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    text-align: center;
+}

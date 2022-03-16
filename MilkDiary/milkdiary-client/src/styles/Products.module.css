@@ -1,0 +1,27 @@
+.productsComponenet {
+    background-color: #fff;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.productsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3em;
+    margin: 2em;
+}
+.newProductBtn {
+    align-items: center;
+    height: 2.5rem;
+    width: 8rem;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #4f80e1;
+    color: #fafafa;
+    border-radius: 0.7em;
+    border: none;
+}
+
+.newProductBtn:hover {
+    background-color: #395fac;
+}

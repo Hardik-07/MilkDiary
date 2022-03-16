@@ -1,0 +1,75 @@
+.loginPage {
+    background-color: #4f80e1;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+}
+
+.loginComponent {
+    place-self: center;
+}
+.heading {
+    color: white;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.loginForm {
+    background-color: white;
+    height: 26em;
+    width: 50em;
+    border-radius: 0.8em;
+    box-shadow: 2px 2px 15px rgba(12, 12, 12, 0.357);
+    display: grid;
+    grid-template-columns: 0.7fr 0.4fr;
+    overflow: hidden;
+}
+.formSection {
+    padding: 2em;
+    background-color: white;
+    border-radius: 0.8em 0em 5em 0.8em;
+}
+.textContent {
+    text-align: center;
+}
+
+.fields {
+    padding: 40px;
+    justify-content: center;
+    margin: 0px 40px;
+}
+.fields input {
+    width: 20em;
+    height: 3em;
+    display: block;
+    margin: 10px 2px;
+    border-radius: 0.6em;
+    border: none;
+    padding: 0px 10px;
+    color: #4f80e1;
+    font-style: italic;
+    border: 0.4px solid rgba(169, 167, 164, 0.323);
+}
+
+.fields input:focus {
+    outline: none;
+}
+
+.loginbtn {
+    width: 20em;
+    height: 2.4em;
+    border: none;
+    background-color: #4f80e1;
+    color: white;
+    font-weight: 600;
+    margin-top: 1em;
+    border-radius: 0.4em;
+}
+
+.loginbtn:hover {
+    background-color: #3a5997;
+}
+.imgdoodle {
+    height: 80%;
+    width: 100%;
+    background-repeat: repeat;
+}
